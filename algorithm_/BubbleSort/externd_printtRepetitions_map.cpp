@@ -26,7 +26,7 @@ void display(const std::map<int, unsigned int> &counts);
 int main()
 {
     //CArray repeatArray;
-    std::map<int, int> mymap;
+  
     int a[] = {3, 1, 6, 2, 9, 0, 2, 3, 9, 3, 9};
 
     int len = sizeof(a) / sizeof(int);
@@ -76,3 +76,8 @@ void display(const std::map<int, unsigned int> &counts)
                   << count->second << std::endl;
     }
 }
+
+
+
+
+

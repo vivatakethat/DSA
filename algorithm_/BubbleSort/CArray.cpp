@@ -98,3 +98,7 @@ int main()
         cout << a4[i] << " ";
     return 0;
 }
+
+
+
+
