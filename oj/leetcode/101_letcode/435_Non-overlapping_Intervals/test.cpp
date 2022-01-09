@@ -1,10 +1,19 @@
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
 {
-    if (0 || 1)
-        cout << __LINE__ << endl;
-    return 0;
+
+  for (int i = 0; i < 3; i++)
+  {
+cout<<"i="<<i<<endl;
+    // if(i==1)
+    // continue;
+
+  }
+
+  return 0;
 }
